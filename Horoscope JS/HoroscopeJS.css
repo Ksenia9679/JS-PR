@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+html, body {
+    background-color: #8a796d;
+}
+
+.wrapper {
+    min-height: 100%;
+    max-width: 1600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#data {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#generate {
+    padding: 7px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 0.9em;
+    border: 1px solid #a1a1a1;
+    transition: background-color .3s ease;
+    margin-bottom: 10px;
+}
+
+#generate:hover  {
+    background-color: #e7e7e7;
+}
+
+.checkbox {
+    margin: 15px 0 ;
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+p#horoscope {
+    width: 1150px;
+    font-size: 20px;
+}
+
+form.form {
+    font-size: 23px;
+}
+
+button#generate {
+    background-color: #a56f6f;
+    border: 2px solid #865757;
+    font-size: 18px;
+}
+
+input#data {
+    background-color: #a56f6f;
+    border: 2px solid #865757;
+    font-size: 18px;
+}

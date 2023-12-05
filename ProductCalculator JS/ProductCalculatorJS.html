@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductCalculator JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="ProductCalculatorJS.css">
+    <script  src="ProductCalculatorJS.js" defer></script>
+</head>
+<body>
+    <div id="parent">
+        <div id="form">
+            <input id="name" placeholder="Название">
+            <input id="price" placeholder="Цена">
+            <input id="amount" placeholder="Количество">
+            <input id="add" type="button" value="Добавить">
+        </div>
+        
+        <h1>Таблица продуктов:</h1>
+        <table id="table">
+            <tr>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Сумма</th>
+                <th>Удалить</th>
+            </tr>
+        </table>
+        <div id="result">
+            Общий итог: <span id="total">0</span>
+        </div>
+    </div>
+</body>
